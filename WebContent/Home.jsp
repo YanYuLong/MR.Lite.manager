@@ -16,6 +16,7 @@
 <jsp:include page="./templete/Header.jsp"></jsp:include>
 <div class="container" style="width: 100%;height:100%;padding: 0">
 <div class="row">
+<div></div>
 </div>
 </div>
 </body>
