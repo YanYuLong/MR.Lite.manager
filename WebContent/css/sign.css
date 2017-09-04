@@ -1,0 +1,49 @@
+body {
+	background-color: rgb(117, 185, 230);
+}
+
+.warp {
+	margin: auto;
+	width: 28.125rem;
+	height: 18.75rem;
+	background-color: white;
+	border-radius: 0.25rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	float: left;
+}
+
+.nav {
+	float: left;
+	list-style: none;
+	font-size: 2rem;
+	width: 100%;
+}
+
+.nav ul {
+	width: 100%;
+	padding: 0;
+}
+
+.nav  li {
+	line-height: 4rem; //
+	float: left;
+	display: table-cell;
+	color: rgb(118, 131, 153);
+	width: 1%;
+	text-align: center;
+	background-color: rgb(243, 245, 246)
+}
+.nav  li a:hover
+{
+	background-color: white;
+}
+.nav li a {
+	color: rgb(118, 131, 153);
+	text-decoration: none;
+	cursor: default;
+	width:100%;
+}
