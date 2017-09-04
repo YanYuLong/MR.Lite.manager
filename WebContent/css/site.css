@@ -1,55 +1,37 @@
 html {
 	min-width: 600px;
 	height: 100%;
-	font-size:62.5%;
+	font-size: 62.5%;
 }
 
-/*Header*/
-.header .navbar {
-	float: left;
-	display: block;
+.header {
 	width: 100%;
+	background-color: rgb(118, 185, 230);
+	display: block;
+	height: 50px;
+	padding: 0 20px;
 }
 
-.navbar>li {
+.nav>li {
 	float: left;
+	height: 50px;
 	display: block;
+}
+
+.nav>li i {
+	font-size: 18px;
+	padding: 0 10px;
+	line-height:50px;
 }
 
 .nav>li>a {
-	font-size: 24px;
+	font-size: 15px;
+	line-height: 50px;
+	height:50px;
+	padding: 0 15px;
 	color: white;
 }
 
 .nav>li>a:hover {
 	background-color: rgb(53, 64, 61);
-}
-
-.dropdown-menu>li:hover {
-	background-color: rgb(101, 122, 117);
-}
-
-.dropdown-menu>li a:hover {
-	background-color: rgb(101, 122, 117);
-}
-
-.dropdown-menu>li {
-	margin: 0;
-	padding: 10px 0;
-}
-
-.dropdown-menu>li a {
-	font-size: 12px;
-	line-height: 30px;
-}
-
-.dropdown-menu>li i {
-	margin-right: 15px;
-	font-size: 20px;
-}
-
-.footer {
-	background-color: rgb(41, 33, 31);
-	height: 45px;
-	width: 100%;
 }

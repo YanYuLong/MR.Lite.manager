@@ -16,12 +16,7 @@
 <jsp:include page="./templete/Header.jsp"></jsp:include>
 <div class="container" style="width: 100%;height:100%;padding: 0">
 <div class="row">
-<div class="col-lg-1 col-md-3 col-sm-6 col-xs-12" style="background-color: red;">
-fdsfsfsdf
 </div>
 </div>
-</div>
-<!-- Footer -->
-<jsp:include page="./templete/Footer.jsp"></jsp:include>
 </body>
 </html>
